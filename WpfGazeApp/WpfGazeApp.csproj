@@ -66,11 +66,13 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="tobii_interaction_lib_cs">
-      <HintPath>..\..\interaction_lib_sdk_windows_x64_dynamic_1.0.2.1\lib\x64\tobii_interaction_lib_cs.dll</HintPath>
+    <Reference Include="tobii_interaction_lib_cs, Version=1.0.2.1, Culture=neutral, PublicKeyToken=a9b09c0ddacb6a82, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\tobii_interaction_lib_cs.dll</HintPath>
     </Reference>
-    <Reference Include="tobii_interaction_lib_wpf">
-      <HintPath>..\..\interaction_lib_sdk_windows_x64_dynamic_1.0.2.1\lib\x64\tobii_interaction_lib_wpf.dll</HintPath>
+    <Reference Include="tobii_interaction_lib_wpf, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\tobii_interaction_lib_wpf.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
